@@ -18,6 +18,7 @@ function compose(a,b,c,d){
     let compose = a * a;
     return compose;
 }
-let f = compose(a, b, c, d);
+function f(compose, a, b, c, d){
+    let f = compose(a, b, c, d);
 console.log(f(2))
-f();
+}
